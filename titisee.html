@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Titisee-neustadt</title>
+        <link rel="stylesheet" type="text/css" href="mais_style.css">
+    </head>
+    <body>
+        <header>
+            <div class="nav-left">
+                <button><a href="Draft.html">Home</a></button>
+                <button><a href="aboutus.html">About</a></button>
+                <button><a href="contact.html">Contact</a></button>
+            </div>
+            <div class="logo">
+                <a href="Draft.html"><img src="logoMAISblack.png" alt="Logo"></a>
+            </div>
+            <div class="nav-right">
+                <div class="search-bar">
+                    <input type="text" id="search-input" placeholder="Search"> 
+                </div>
+                <button class="search-button">Search</button>
+            </div>
+        </header>
+        <main>
+            <div class="article">
+                <div class="text-container">
+                <h3>An oasis in Black Forest</h3>
+                <p>by Michelle</p>
+                <p>Titisee, a hidden jewel in the Black Forest, stole my heart. The lake, a tranquil masterpiece, reflected the surrounding beauty like a mirror. The town's charm, with timber-framed houses and quaint shops, felt straight out of a storybook.
+                </p><p>A boat ride with friends on the crystal-clear waters remains a highlight. Laughter echoed, creating memories against the stunning backdrop. Exploring Black Forest trails revealed hidden wonders, turning every step into an adventure.
+                </p><p>Titisee isn't just a place; it's a cherished memory. The lakeside tranquility, the camaraderie on a boat ride, and the enchantment of the Black Forest create a timeless chapter in my travel tales.
+                </p><p>It is so easy to reach this location: by car you can find it by using the location down here but you can also use the bus. Information about the bus can be found on <a href="//www.bahn.de/service/mobile">DB app</a>.</p>
+                </div>
+                
+                <div class="image-container">
+                    <img src="titisee1.jpeg"> 
+                    <img src="titisee2.jpeg">
+                    <img src="titisee3.jpeg">
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85525.56045158255!2d8.108287687215707!3d47.94269387925799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4790f1d9539c09e7%3A0xa1511d05963ae6b0!2s79822%20Titisee-Neustadt!5e0!3m2!1sen!2sde!4v1705358245857!5m2!1sen!2sde" 
+                width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="rate-system" id="rate-system"><h6>Rate the article:  </h6>
+                    <div class="heart" onmouseover="fillHearts(1)" onclick="rateArticle(1)" id="heart-1">&#10084;</div>
+                    <div class="heart" onmouseover="fillHearts(2)" onclick="rateArticle(2)" id="heart-2">&#10084;</div>
+                    <div class="heart" onmouseover="fillHearts(3)" onclick="rateArticle(3)" id="heart-3">&#10084;</div>
+                    <div class="heart" onmouseover="fillHearts(4)" onclick="rateArticle(4)" id="heart-4">&#10084;</div>
+                    <div class="heart" onmouseover="fillHearts(5)" onclick="rateArticle(5)" id="heart-5">&#10084;</div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2023 MAIS. All rights reserved. | <a href="https://www.instagram.com/this.is.mais/" target="_blank">Instagram</a></p>
+        </footer>
+        <button id="scroll-to-top" onclick="scrollToTop()"></button>
+        <script src="mais.js"></script>
+    </body>
+</html> 

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Freiburg</title>
+        <link rel="stylesheet" type="text/css" href="mais_style.css">
+    </head>
+    <body>
+        <header>
+            <div class="nav-left">
+                <button><a href="Draft.html">Home</a></button>
+                <button><a href="aboutus.html">About</a></button>
+                <button><a href="contact.html">Contact</a></button>
+            </div>
+            <div class="logo">
+                <a href="Draft.html"><img src="logoMAISblack.png" alt="Logo"></a>
+            </div>
+            <div class="nav-right">
+                <div class="search-bar">
+                    <input type="text" id="search-input" placeholder="Search"> 
+                </div>
+                <button class="search-button">Search</button>
+            </div>
+        </header>
+        <main>
+            <div class="article">
+                <div class="text-container">
+                    <h3>Exploring the Allure of Freiburg</h3>
+                    <p>by Adelina</p>
+                    <p>Freiburg, a city that seamlessly blends history, nature, and a vibrant cultural scene, welcomes you to experience its enchanting allure. Amidst the timeless charm of the Old Town, where cobblestone streets whisper tales of centuries past, and the imposing Freiburg Minster stands as a testament to the city's rich history, there's an additional layer of excitement brought by Freiburg's lively festivals.</p>
+                    <p>Twice a year, the city transforms into a hub of celebration, hosting grand festivals that captivate locals and visitors alike. These events showcase Freiburg's dynamic community spirit, offering a unique opportunity to immerse yourself in the region's traditions and cultural richness. The lively atmosphere, accompanied by local music, dance, and traditional cuisines, creates an unforgettable experience.</p>
+                    <p>For nature enthusiasts, the nearby Black Forest provides a haven of tranquility, with scenic trails and lush landscapes awaiting exploration. Meanwhile, food aficionados can indulge their senses in the bustling markets like Münstermarkt, where the aroma of fresh produce and the charm of artisanal crafts fill the air.</p>
+                    <p>As the sun sets, Freiburg's vibrant spirit continues to shine through its dynamic nightlife. The city's diverse array of bars, pubs, and clubs cater to every taste, offering a lively atmosphere that beckons locals and visitors alike. Whether you prefer cozy pubs with local brews, chic cocktail lounges, or energetic nightclubs pulsating with music, Freiburg's nightlife scene has something for everyone.</p>
+                    <p>Freiburg gracefully transitions through every season, each marked by its own unique festivities. From the vibrant spring festivals that breathe life into the streets to the cozy winter markets adorned with twinkling lights, there's always something special happening in Freiburg.</p>
+                </div>
+                
+                <div class="image-container">
+                    <img src="frbg3.jpg"> 
+                    <img src="frbg1.jpg">
+                    <img src="frbg2.jpg">
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d170903.82230407253!2d7.631609607605645!3d47.98719327490853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47911b26560bd665%3A0x41f6bb7a5df57b0!2sFreiburg%20im%20Breisgau!5e0!3m2!1sen!2sde!4v1705361066959!5m2!1sen!2sde"
+                width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+                <div class="rate-system" id="rate-system"><h6>Rate the article:  </h6>
+                    <div class="heart" onmouseover="fillHearts(1)" onclick="rateArticle(1)" id="heart-1">&#10084;</div>
+                    <div class="heart" onmouseover="fillHearts(2)" onclick="rateArticle(2)" id="heart-2">&#10084;</div>
+                    <div class="heart" onmouseover="fillHearts(3)" onclick="rateArticle(3)" id="heart-3">&#10084;</div>
+                    <div class="heart" onmouseover="fillHearts(4)" onclick="rateArticle(4)" id="heart-4">&#10084;</div>
+                    <div class="heart" onmouseover="fillHearts(5)" onclick="rateArticle(5)" id="heart-5">&#10084;</div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2023 MAIS. All rights reserved. | <a href="https://www.instagram.com/this.is.mais/" target="_blank">Instagram</a></p>
+        </footer>
+        <button id="scroll-to-top" onclick="scrollToTop()"></button>
+        <script src="mais.js"></script>
+    </body>
+</html>
